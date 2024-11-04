@@ -33,50 +33,6 @@ const Countdown = ({ targetDate, eventTitle, location }) => {
   }, [targetDate]);
 
   const formatTime = (time) => (time < 10 ? `0${time}` : time);
-
-  // useEffect(() => {
-  //   const countdownTrigger = ScrollTrigger.create({
-  //     trigger: "#countdown",
-  //     start: "top 80%",
-  //     end: "bottom 70%",
-  //     onEnter: () => {
-  //       gsap.to("#countdown", {
-  //         opacity: 1,
-  //         translateY: 0,
-  //       });
-  //     },
-  //     onLeaveBack: () => {
-  //       gsap.to("#countdown", {
-  //         opacity: 0,
-  //         translateY: 28,
-  //       });
-  //     },
-  //   });
-
-  //   const textTrigger = ScrollTrigger.create({
-  //     trigger: "#count",
-  //     start: "top 85%",
-  //     end: "top 20%",
-  //     onEnter: () => {
-  //       gsap.to("#countdown-text", {
-  //         opacity: 1,
-  //         translateY: 0,
-  //       });
-  //     },
-  //     onLeaveBack: () => {
-  //       gsap.to("#countdown-text", {
-  //         opacity: 0,
-  //         translateY: 32,
-  //       });
-  //     },
-  //   });
-
-  //   return () => {
-  //     countdownTrigger.kill();
-  //     textTrigger.kill();
-  //   };
-  // }, []);
-
   return (
     <div id='countdown'
       className="bg-black text-[#2DCDC4] rounded-xl p-6 md:px-24 md:py-10 bg-cover bg-center"
@@ -85,7 +41,7 @@ const Countdown = ({ targetDate, eventTitle, location }) => {
       }}
     >
       <h1 className='text-white'>Event Starts in</h1>
-      <div className="flex space-x-10 mt-4 p-2 md:p-5">
+      <div className="flex space-x-5 mt-4 p-2 md:p-5">
         <div>
           <p className="text-sm text-[#2DCDC4]">Days</p>
           <p className="text-4xl md:text-7xl">{formatTime(timeLeft.days)}</p>

@@ -16,7 +16,6 @@ const Hackathon = () => {
         <Home/>
         <WhatWeAbout/>
         <BackGround/>
-        <BackGround/>
         <CountDown/>
         <BackGround/>
         <Challenges/>

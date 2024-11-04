@@ -4,7 +4,9 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Events = () => {
   return (
-    <div className="bg-black text-white " style={{ backgroundImage: 'url(https://i.ibb.co/zPj1s3d/Home-page-Workshop.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div 
+    id="events-workshop"
+    className="bg-black text-white " style={{ backgroundImage: 'url(https://i.ibb.co/zPj1s3d/Home-page-Workshop.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1648134859211-4a1b57575f4e?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         subheading="Craft. Create. Innovate."

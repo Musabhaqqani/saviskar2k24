@@ -4,7 +4,8 @@ import { ShimmerButtonDemo } from '../ShimmerButton/ShimmerButtonDemo'
 const Home = () => {
   return (
     <div
-  className="h-[100vh] md:h-[80vh]"
+    id='hack-home'
+  className="h-[100vh]"
   style={{
     backgroundImage: "url('https://i.ibb.co/r3TYPYL/Hackathon-1.png')",
     backgroundSize: "cover",
@@ -39,7 +40,7 @@ const Home = () => {
                 </div>
 
                 <div class="lg:ml-auto lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
-                <a href="#" title="" className=""  role="button">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWeeFOZdgWyHFAo01Tz5sUU56hDeiEUojaKAd3JAAcZYTLMw/viewform" title="" className=""  role="button">
                 <ShimmerButtonDemo />
               </a>
                 </div>
@@ -49,12 +50,12 @@ const Home = () => {
 
     <section class="md:pt-52 lg:pt-8">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="grid max-w-lg grid-cols-1 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-16">
+            <div class="grid max-w-lg grid-cols-1 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-16 md:mt-28">
                 <div>
                     <div class="text-center lg:text-left">
                         <p className='text-[#2DCDC4] text-2xl'>13-14 November</p>
                         <p className='text-[#2DCDC4] text-4xl md:text-5xl'>24hrs</p>
-                        <p className='text-[#2DCDC4] text-6xl md:text-9xl'>Hackthon</p>
+                        <p className='text-[#2DCDC4] text-6xl md:text-9xl'>Hackathon</p>
                         <h1 class="text-5xl font-bold leading-tight sm:text-5xl sm:leading-tight text-white lg:leading-tight lg:text-4xl font-pj">Join the fun
                         <h1 className="text-3xl md:text-4xl font-bold text-transparent"
                         style={{
@@ -65,27 +66,11 @@ const Home = () => {
                         code with us and unleash your skills
                         </h1>
                             </h1>
-
-                        {/* <form action="#" method="POST" class="mt-8 sm:mt-10">
-                            <div class="relative p-2 sm:border sm:border-gray-400 group sm:rounded-xl sm:focus-within:ring-1 sm:focus-within:ring-gray-900 sm:focus-within:border-gray-900">
-                                <input
-                                    type="email"
-                                    name=""
-                                    id=""
-                                    placeholder="Enter email address"
-                                    class="block w-full px-4 py-4 text-gray-900 placeholder-gray-900 bg-transparent border border-gray-400 outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 rounded-xl sm:border-none sm:focus:ring-0 sm:focus:border-transparent"
-                                    required=""
-                                />
-                                <div class="mt-4 sm:mt-0 sm:absolute sm:inset-y-0 sm:right-0 sm:flex sm:items-center sm:pr-2">
-                                    <button type="submit" class="inline-flex px-6 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 rounded-lg focus:outline-none focus:bg-gray-600 font-pj hover:bg-gray-600">Get Free Card</button>
-                                </div>
-                            </div>
-                        </form> */}
                     </div>
 
                 </div>
 
-                <div className='block sm:hidden lg:block overflow-hidden'>
+                <div className='block sm:hidden h-[40vh] md:h-[50vh] lg:block overflow-hidden'>
                 <svg
                     className="w-full"
                     width="386"

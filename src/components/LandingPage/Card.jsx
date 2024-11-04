@@ -86,10 +86,10 @@ const Page3 = () => {
 
   return (
 <div id='launch' className='bg-black'>
-<h2 id='launch-text' className="text-4xl font-bold md:text-5xl md:px-24 px-10 py-4 text-white">
+<h2 id='launch-text' className="text-4xl font-bold md:text-5xl md:px-24 px-6 py-4 text-white">
           Watch Our
 </h2>
-  <h1 id='launch-text' className="text-5xl md:text-6xl md:px-24 px-10 font-bold text-transparent"
+  <h1 id='launch-text' className="text-5xl md:text-6xl md:px-24 px-6 font-bold text-transparent"
                         style={{
                             WebkitTextStrokeWidth: "2px",
                             WebkitTextStrokeColor: "white",

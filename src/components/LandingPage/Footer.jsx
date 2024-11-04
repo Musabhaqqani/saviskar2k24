@@ -1,18 +1,24 @@
-import React from 'react'
-import Content from './Content';
+import React from 'react';
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <div 
-        id='footer1'
-        className='relative h-[800px]'
-        style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
-    >
-        <div className='relative h-[calc(100vh+800px)] -top-[100vh]'>
-            <div className='h-[800px] sticky top-[calc(100vh-800px)]'>
-                <Content />
-            </div>
+    <footer className='bg-[#bbbbbb] w-full h-[100vh] p-8'>
+      <div className='flex flex-col justify-between h-full'>
+        <nav>
+          <ul className='space-y-4'>
+            <li><a href="#Home" className='text-4xl'>Home</a></li>
+            <li><a href="#event" className='text-4xl'>Events</a></li>
+            <li><a href="#gallery" className='text-4xl'>Gallery</a></li>
+            <li><a href="mailto:knikhilgoud2004@gmail.com" className='text-4xl'>Contact Us</a></li>
+          </ul>
+        </nav>
+        <div className='flex flex-col'>
+          <p className='text-[13vw]'>Saviskar</p>
+          <h1 className='text-9xl'>2k24</h1>
         </div>
-    </div>
-  )
+      </div>
+    </footer>
+  );
 }
+
+export default Footer;

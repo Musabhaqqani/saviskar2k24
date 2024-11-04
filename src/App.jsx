@@ -1,39 +1,3 @@
-// import React from 'react';
-// import Navbar from './components/Navbar';
-// import HeroSection from './components/HeroSection';
-// import CountDown from './components/CountDown';
-// import EventsList from './components/EventsList';
-// import Card from './components/Card';
-// import Gallery from './components/Gallery';
-// import Footer from './components/Footer';
-// import './App.css';
-// import Home from './components/Home';
-// import Sponsers from './components/Sponsers';
-// import Workshop from './components/WorkShop/Workshop';
-// import Technical from './components/Technical/Technical';
-// import NonTechnical from './components/NonTechnical/NonTechnical';
-// import LandingPage from './components/LandingPage/LandingPage';
-// function App() {
-//   return (
-//     <div>
-//       {/* <Home/>
-//       <CountDown />
-//      <EventsList/>
-//      <Card/>
-//      <Gallery/>
-//       <Sponsers/>
-//     <Footer/> */}
-//     <LandingPage/>
-//       {/* <Workshop/> */}
-
-//       {/* <Technical/> */}
-//       {/* <NonTechnical/> */}
-//     </div>
-//   );
-// }
-
-
-
 'use client'
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";

@@ -36,11 +36,11 @@ const Nav = () => {
         <p>Contact Us</p>
       </div>
       <div>
-      <div className='flex h-16 w-20 gap-5 md:gap-10 md:mr-10 rounded-2xl'>
+      {/* <div className='flex h-16 w-20 gap-5 md:gap-10 md:mr-10 rounded-2xl'>
         <img src="https://i.ibb.co/JBqm08X/SAVE-20241030-133511.jpg" alt="" />
         <img src="https://i.ibb.co/2MCnMX5/SAVE-20241030-133521.jpg" alt="" />
         <img src="https://i.ibb.co/PZtn50q/SAVE-20241030-133516.jpg" alt="" />
-      </div>
+      </div> */}
       </div>
     </div>
   );

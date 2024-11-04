@@ -34,23 +34,23 @@ return () => {
 }, []);
 
   return (
-    <div id="gallery" className="pt-16 bg-black"> {/* Adds space at the top for another title */}
-      <h2 id='gallery-text' className="text-3xl font-bold md:text-5xl px-8 py-4 md:px-24 text-white opacity-0 translate-y-32">
+    <div id="gallery" className="bg-black"> {/* Adds space at the top for another title */}
+      <h2 id='gallery-text' className="text-3xl font-bold md:text-5xl px-6 py-4 md:px-24 text-white opacity-0 translate-y-32">
                         Gallery
                 </h2>
-                <h1 id='gallery-text' className="text-4xl md:text-6xl px-8 md:px-24 font-bold text-transparent opacity-0 translate-y-32"
+                <h1 id='gallery-text' className="text-4xl md:text-6xl px-6 md:px-24 font-bold text-transparent opacity-0 translate-y-32"
                                         style={{
                                             WebkitTextStrokeWidth: "2px",
                                             WebkitTextStrokeColor: "white",
                                         }}
                                         >Collection</h1>
       <div
-        className="relative h-[600px] w-full grid place-items-center bg-black overflow-hidden"
+        className="relative h-[600px] w-full grid place-items-center gap-2 bg-black overflow-hidden"
         // style={{
         //   backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke-width='2' stroke='%23d4d4d4'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e")`,
         // }}
       >
-        <h2 className="absolute top-6 text-2xl md:text-3xl font-bold text-white">
+        <h2 className="absolute top-6 text-xl md:text-3xl font-bold text-white">
           Swipe Through Our
           <span className="text-slate-400"> Collection</span>
         </h2>

@@ -56,11 +56,11 @@ const Sponsers = () => {
   }, []);
 
   return (
-    <div id="sponsers" className="bg-black px-4 py-12">
+    <div id="sponsers" className="bg-black px-4 pb-8">
       <h2 id='sponsers-text' className="text-4xl font-bold md:text-5xl px-2 py-4 md:px-24 text-white opacity-0 translate-y-32">
                         Sponsers
                 </h2>
-                <h1 id='sponsers-text' className="text-5xl md:text-6xl px-2 md:px-24 font-bold text-transparent opacity-0 translate-y-32"
+                <h1 id='sponsers-text' className="text-4xl md:text-6xl px-2 md:px-24 font-bold text-transparent opacity-0 translate-y-32"
                                         style={{
                                             WebkitTextStrokeWidth: "2px",
                                             WebkitTextStrokeColor: "white",

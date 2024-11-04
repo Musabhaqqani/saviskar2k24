@@ -3,7 +3,7 @@ import { ShimmerButtonDemo } from '../ShimmerButton/ShimmerButtonDemo'
 
 const Home = () => {
   return (
-    <div id='Home' className="bg-gradient-to-b bg-black h-screen text-white" style={{ backgroundImage: 'url(https://i.ibb.co/zPj1s3d/Home-page-Workshop.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div id='tech-home' className="bg-gradient-to-b bg-black h-screen text-white" style={{ backgroundImage: 'url(https://i.ibb.co/zPj1s3d/Home-page-Workshop.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <header className="">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
@@ -43,10 +43,10 @@ const Home = () => {
                   <h1 className="relative text-4xl font-bold text-white sm:text-6xl lg:text-7xl">Events</h1>
                 </div>
               </h1>
-              <p className="md:mt-8 mt-8 text-base text-white sm:text-xl">Step into the ultimate arena for tech enthusiasts, visionaries, and problem-solvers! Saviskar is here to ignite your passion for technology and test the boundaries of what’s possible. Dive into hands-on challenges.
+              <p className="md:mt-8 mt-4 text-base text-white text-sm sm:text-xl">Step into the ultimate arena for tech enthusiasts, visionaries, and problem-solvers! Saviskar is here to ignite your passion for technology and test the boundaries of what’s possible.
 </p>
               <div className="md:mt-10 sm:flex sm:items-center sm:space-x-8">
-                <a href="#Events" title="" className="inline-flex items-center mt-6 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80">
+                <a href="#events-tech" title="" className="inline-flex items-center mt-2 text-base font-semibold transition-all duration-200 sm:mt-0 hover:opacity-80">
                   Start exploring 
                   <svg className="w-10 h-10 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path fill="#931569" stroke="#931569" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />

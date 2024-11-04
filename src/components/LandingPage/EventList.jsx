@@ -54,7 +54,7 @@ export const EventList = () => {
     }, []);
 
     return (
-        <section id="event" className="mx-auto min-h-screen px-8 md:px-16 py-24 bg-black text-white">
+        <section id="event" className="mx-auto min-h-screen px-6 md:px-16 py-10 bg-black text-white">
             <div className="mb-8 flex flex-col items-start justify-start md:px-8">
                 {/* <h2 id='event-text' className="max-w-lg text-4xl text-white font-bold md:text-5xl opacity-0 translate-y-32">
                     Explore all Events
